@@ -8,8 +8,9 @@ node_js:
 
 install:
   - npm ci
-  - npm install -g codecov
+  - npm i -g codecov
 
 script:
+  - npm test
   - npm run coverage
   - codecov
