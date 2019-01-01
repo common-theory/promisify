@@ -10,6 +10,13 @@ test('no arg function', async t => {
   t.pass();
 });
 
+test('no return value function', async t => {
+  const fn = cb => cb();
+  const promiseFn = promisify(fn);
+  t.is(undefined, await promiseFn());
+  t.pass();
+});
+
 test('single arg function', async t => {
   const fn = (a, cb) => {
     if (a) {
