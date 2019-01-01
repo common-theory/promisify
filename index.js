@@ -7,7 +7,8 @@ function promisify(fn) {
     return new Promise((rs, rj) => {
       fn(...args, (err, ..._args) => {
         if (err) return rj(err);
-        rs(..._args);
+        if (_args.length === 1) return rs(_args);
+        rs([..._args]);
       });
     });
   };
