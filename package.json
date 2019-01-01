@@ -5,11 +5,12 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "ava"
+    "test": "nyc ava"
   },
   "author": "Chance Hudson",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^1.0.1"
+    "ava": "^1.0.1",
+    "nyc": "^13.1.0"
   }
 }
