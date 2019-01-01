@@ -1,4 +1,4 @@
-# @ctheory/promisify [![npm (scoped)](https://img.shields.io/npm/v/@ctheory/promisify.svg)](https://www.npmjs.com/package/@ctheory/promisify) [![npm type definitions](https://img.shields.io/npm/types/@ctheory/promisify.svg)](https://github.com/common-theory/promisify)
+# @ctheory/promisify [![](https://img.shields.io/codecov/c/github/common-theory/promisify.svg)](https://codecov.io/gh/common-theory/promisify/src/master/index.js) [![npm (scoped)](https://img.shields.io/npm/v/@ctheory/promisify.svg)](https://www.npmjs.com/package/@ctheory/promisify) [![npm type definitions](https://img.shields.io/npm/types/@ctheory/promisify.svg)](https://github.com/common-theory/promisify)
 
 A simple TS typed function for promisifying callback based functions.
 
