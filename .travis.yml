@@ -5,3 +5,11 @@ sudo: required
 language: node_js
 node_js:
   10
+
+install:
+  - npm ci
+  - npm install -g codecov
+
+script:
+  - npm run coverage
+  - codecov

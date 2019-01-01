@@ -5,6 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
+    "coverage": "nyc report --reporter=text-lcov ava > coverage.lcov",
     "test": "nyc ava"
   },
   "author": "Chance Hudson",
